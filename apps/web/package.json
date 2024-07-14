@@ -1,0 +1,36 @@
+{
+  "name": "@signa-protocol/ui",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "@vant/nuxt": "^1.0.2",
+    "nuxt": "^3.10.3",
+    "sass": "^1.77.7",
+    "unplugin-vue-components": "^0.25.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@signa-protocol/chain": "0.0.1",
+    "@vite-pwa/nuxt": "^0.9.1",
+    "naive-ui": "^2.34.4",
+    "qrcode-vue3": "^1.6.8",
+    "vant": "^4.6.0",
+    "@proto-kit/common": "file:../../../protokit-framework/packages/common",
+    "@proto-kit/library": "file:../../../protokit-framework/packages/library",
+    "@proto-kit/module": "file:../../../protokit-framework/packages/module",
+    "@proto-kit/protocol": "file:../../../protokit-framework/packages/protocol",
+    "@proto-kit/sdk": "file:../../../protokit-framework/packages/sdk",
+    "@proto-kit/sequencer": "file:../../../protokit-framework/packages/sequencer",
+    "o1js": "file:../../../protokit-framework/node_modules/o1js",
+    "tsyringe": "file:../../../protokit-framework/node_modules/tsyringe"
+  }
+}

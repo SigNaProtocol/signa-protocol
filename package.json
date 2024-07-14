@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "SigNa Protocol",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "prettier": "^3.1.0"
+  }
+}
